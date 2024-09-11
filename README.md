@@ -1,1 +1,1 @@
-# Laundary
+# laundry

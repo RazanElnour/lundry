@@ -1,0 +1,706 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hotel_laundry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 07:11+0000\n"
+"PO-Revision-Date: 2020-08-12 07:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Automatic Declaration"
+msgstr "إعلان تلقائي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry__state__canceled
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__canceled
+msgid "Canceled"
+msgstr "ملغى"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__category_id
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__category_id1
+msgid "Category"
+msgstr "فئة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry__state__confirmed
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__confirmed
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__cost_price
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__cost_price
+msgid "Cost Price"
+msgstr "سعر التكلفة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__cost_rate
+msgid "Cost Rate"
+msgstr "معدل التكلفة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__cost_subtotal
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__cost_subtotal
+msgid "Cost Sub Total"
+msgstr "إجمالي التكلفة الفرعية"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__create_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__create_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__create_date
+msgid "Created on"
+msgstr "تاريخ الإنشاء"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Customer Return"
+msgstr "إرجاع العميل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__customer_returned
+msgid "Customer Returned"
+msgstr "تم إرجاعه من قبل العميل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__tax_id
+msgid "Customer Taxes"
+msgstr "ضرائب العميل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__display_name
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__done
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Done"
+msgstr "منجز"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry__state__draft
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry__state__edit
+msgid "Edit"
+msgstr "تحرير"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Extra Info"
+msgstr "معلومات إضافية"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__request_type__from_room
+msgid "From Room"
+msgstr "من الغرفة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__partner_id
+msgid "Guest Name"
+msgstr "اسم الضيف"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "History"
+msgstr "التاريخ"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Hotel Lanudry Service"
+msgstr "خدمة غسيل الفندق"
+
+#. module: hotel_laundry
+#: model:ir.actions.act_window,name:hotel_laundry.hotel_laundry_view
+#: model:ir.model,name:hotel_laundry.model_hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_tree_view
+msgid "Hotel Laundry"
+msgstr "غسيل الفندق"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_hotel_laundry_picking_memory
+msgid "Hotel Laundry Picking Memory"
+msgstr "ذاكرة انتقاء غسيل الفندق"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__hotel_laundry_service_id
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Hotel Laundry Service"
+msgstr "خدمة غسيل الفندق"
+
+#. module: hotel_laundry
+#: model:res.groups,name:hotel_laundry.group_laundry_user
+msgid "Hotel Management / Laundry User"
+msgstr "إدارة الفندق / مستخدم الغسيل"
+
+#. module: hotel_laundry
+#: model:res.groups,name:hotel_laundry.group_laundry_manager
+msgid "Hotel Management/ Laundry Manager"
+msgstr "إدارة الفندق / مدير الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__id
+msgid "ID"
+msgstr "معرف"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__request_type__internal
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__service_type__internal
+msgid "Internal"
+msgstr "داخلي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__invoice_ids
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Invoice Lines"
+msgstr "أسطر الفاتورة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__invoice_state
+msgid "Invoicing"
+msgstr "إصدار الفواتير"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__is_chargable
+msgid "Is Chargable"
+msgstr "قابل للتحميل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__item_id
+msgid "Item"
+msgstr "عنصر"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__item_id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__item_id_ref
+msgid "Items"
+msgstr "عناصر"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Lanundry Service Items Info"
+msgstr "معلومات عناصر خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product____last_update
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__write_uid
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__write_date
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__laundry_items_id
+msgid "Laundry Items"
+msgstr "عناصر الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Laundry Line"
+msgstr "سطر الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Laundry Lines"
+msgstr "أسطر الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_laundry_management
+#: model:ir.ui.menu,name:hotel_laundry.laundry_management_menu
+msgid "Laundry Management"
+msgstr "إدارة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__laundry_service_product_line_ids
+msgid "Laundry Product Service Line"
+msgstr "خط خدمة منتج الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Laundry Return"
+msgstr "إرجاع الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__laundry_returned
+msgid "Laundry Returned"
+msgstr "تم إرجاع الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__laundry_service_id
+#: model:ir.ui.menu,name:hotel_laundry.laundry_service_submenu
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_memory_form
+msgid "Laundry Service"
+msgstr "خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.actions.act_window,name:hotel_laundry.laundry_management_view
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_tree_view1
+msgid "Laundry Service Configuration"
+msgstr "تكوين خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Laundry Service Info"
+msgstr "معلومات خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Laundry Service Items"
+msgstr "عناصر خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__laundry_service_line_id
+msgid "Laundry Service Line"
+msgstr "خط خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_laundry_service_product
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__laundry_service_product_ids
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Laundry Service Product"
+msgstr "منتج خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Laundry Service Product Info"
+msgstr "معلومات منتج خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.ui.menu,name:hotel_laundry.laundry_service_request
+msgid "Laundry Service Request"
+msgstr "طلب خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__laundry_service_ids
+msgid "Laundry Services"
+msgstr "خدمات الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_hotel_laundry_services_items
+msgid "Laundry services Items Details"
+msgstr "تفاصيل عناصر خدمات الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_hotel_laundry_services
+msgid "Laundry services in hotel"
+msgstr "خدمات الغسيل في الفندق"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "Manual Description"
+msgstr "الوصف اليدوي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__move_id
+msgid "Move"
+msgstr "تحرك"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking__product_return_moves
+msgid "Moves"
+msgstr "تحركات"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__name
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry_picking__invoice_state__none
+msgid "No invoicing"
+msgstr "بدون فواتير"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__name
+msgid "Order Reference"
+msgstr "مرجع الطلب"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__pricelist_id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__pricelist_id
+msgid "Pricelist"
+msgstr "قائمة الأسعار"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__product_id
+msgid "Product"
+msgstr "منتج"
+
+#. module: hotel_laundry
+#: model:ir.model,name:hotel_laundry.model_laundry_service_product_line
+msgid "Product Line show all items details"
+msgstr "خط المنتج يعرض تفاصيل جميع العناصر"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_memory_tree
+msgid "Product Moves"
+msgstr "تحركات المنتج"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_form
+msgid "Provide the quantities of the returned products."
+msgstr "قدم كميات المنتجات التي تم إرجاعها."
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__quantity
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__qty
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__date_order
+msgid "Request Date"
+msgstr "تاريخ الطلب"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__deadline_date
+msgid "Request Deadline"
+msgstr "موعد طلب نهائي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__request_type
+msgid "Request Type"
+msgstr "نوع الطلب"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__user_id
+msgid "Responsible"
+msgstr "المسؤول"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_form
+msgid "Return"
+msgstr "إرجاع"
+
+#. module: hotel_laundry
+#: model:ir.actions.act_window,name:hotel_laundry.hotel_laundry_picking_action_form
+#: model:ir.model,name:hotel_laundry.model_hotel_laundry_picking
+msgid "Return Picking"
+msgstr "إرجاع Picking"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_form
+msgid "Return lines"
+msgstr "أسطر الإرجاع"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Room Info"
+msgstr "معلومات الغرفة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__room_number
+msgid "Room No"
+msgstr "رقم الغرفة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services_items__sale_price
+msgid "Sale Price"
+msgstr "سعر البيع"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__sale_subtotal
+msgid "Sale Sub Total"
+msgstr "إجمالي سعر البيع"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__sales_price
+msgid "Sales Price"
+msgstr "سعر المبيعات"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__sales_rate
+msgid "Sales Rate"
+msgstr "معدل المبيعات"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__sale_subtotal
+msgid "Sales Sub Total"
+msgstr "إجمالي المبيعات"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Send to Laundry"
+msgstr "إرسال إلى الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__state__sent_to_laundry
+msgid "Sent to Laundry"
+msgstr "أرسل إلى الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__laundry_services_id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__laundry_services_id
+msgid "Service Name"
+msgstr "اسم الخدمة"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Service Product Line Info"
+msgstr "معلومات خط منتج الخدمة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__service_type
+msgid "Service Type"
+msgstr "نوع الخدمة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__shop_id
+msgid "Shop Name"
+msgstr "اسم المتجر"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__state
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.view_hotel_folio_form_inherit_laundry
+msgid "States"
+msgstr "الحالات"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__amount_subtotal
+msgid "Subtotal"
+msgstr "الإجمالي الفرعي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__supplier_id
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__supplier_id
+msgid "Supplier"
+msgstr "المورد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__supplier_id
+msgid "Supplier Id"
+msgstr "معرف المورد"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Supplier Info"
+msgstr "معلومات المورد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry__partner_id
+msgid "Supplier Name"
+msgstr "اسم المورد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product__cost_tax_id
+msgid "Supplier Taxes"
+msgstr "ضرائب المورد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__supplier_id_temp
+msgid "Supplier Temp Id"
+msgstr "معرف المورد المؤقت"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__amount_tax
+msgid "Tax"
+msgstr "الضريبة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__laundry_management__service_type__third_party
+msgid "Third Party"
+msgstr "طرف ثالث"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,help:hotel_laundry.field_laundry_service_product__cost_rate
+msgid ""
+"This column will compute cost price based on the pricelist linked to "
+"selected supplier"
+msgstr ""
+"سيقوم هذا العمود بحساب سعر التكلفة بناءً على قائمة الأسعار المرتبطة بالمورد المحدد"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,help:hotel_laundry.field_laundry_service_product__sales_rate
+#: model:ir.model.fields,help:hotel_laundry.field_laundry_service_product_line__sales_price
+msgid ""
+"This column will compute cost price based on the pricelist selected at "
+"header part"
+msgstr ""
+"سيقوم هذا العمود بحساب سعر التكلفة بناءً على قائمة الأسعار المحددة في الجزء العلوي"
+
+#. module: hotel_laundry
+#: model:ir.model.fields.selection,name:hotel_laundry.selection__hotel_laundry_picking__invoice_state__2binvoiced
+msgid "To be refunded/invoiced"
+msgstr "للتعويض/الفوترة"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_management__amount_total
+msgid "Total"
+msgstr "الإجمالي"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_service_product_line_tree_view
+msgid "Total Of Sale Subtotal"
+msgstr "إجمالي الإجمالي الفرعي للبيع"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_management_form_view1
+msgid "Total Of Sale Subtotals"
+msgstr "إجمالي الإجماليات الفرعية للبيع"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_laundry_service_product_line__qty_uom
+msgid "UOM"
+msgstr "وحدة القياس"
+
+#. module: hotel_laundry
+#: model:product.product,uom_name:hotel_laundry.laundry_services_id
+#: model:product.template,uom_name:hotel_laundry.laundry_services_id_product_template
+msgid "Units"
+msgstr "الوحدات"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_form_view
+msgid "Update"
+msgstr "تحديث"
+
+#. module: hotel_laundry
+#: model:product.product,name:hotel_laundry.laundry_services_id
+#: model:product.template,name:hotel_laundry.laundry_services_id_product_template
+msgid "Washing Clothes"
+msgstr "غسل الملابس"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,help:hotel_laundry.field_laundry_management__room_number
+msgid ""
+"Will show list of currently occupied room no that belongs to selected shop."
+msgstr ""
+"سيعرض قائمة بأرقام الغرف المشغولة حالياً التي تخص المتجر المحدد."
+
+#. module: hotel_laundry
+#: model:ir.model.fields,help:hotel_laundry.field_laundry_management__shop_id
+msgid ""
+"Will show list of shop that belongs to allowed companies of logged-in user."
+msgstr ""
+"سيعرض قائمة بالمتاجر التي تخص الشركات المسموح بها للمستخدم المتصل."
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_picking_memory__wizard_id
+msgid "Wizard"
+msgstr "معالج"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.hotel_laundry_picking_form
+msgid "_Cancel"
+msgstr "_إلغاء"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_service_product_line_form_view123
+msgid "laundry Service"
+msgstr "خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_service_product_line_form_view
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_service_product_line_tree_view
+msgid "laundry Service Product Line"
+msgstr "خط منتج خدمة الغسيل"
+
+#. module: hotel_laundry
+#: model_terms:ir.ui.view,arch_db:hotel_laundry.laundry_service_product_line_form_view12345
+msgid "laundry Services Item"
+msgstr "عنصر خدمات الغسيل"
+
+#. module: hotel_laundry
+#: model:ir.model.fields,field_description:hotel_laundry.field_hotel_laundry_services__laundry_services_items_ids
+msgid "laundry service items"
+msgstr "عناصر خدمة الغسيل"
+
